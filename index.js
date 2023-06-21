@@ -1,7 +1,4 @@
 const program = require('commander')
-const chalk = require('chalk')
-const Inquirer = require('inquirer')
-const figlet=require('figlet')
 
 program.name('sun').usage(`<command>[option]`).version('1.0.0')
 program.command('create <project-name>') //添加create指令
